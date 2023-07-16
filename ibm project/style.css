@@ -1,0 +1,50 @@
+@import url("https://unsplash.com/photos/Im7lZjxeLhg");
+
+*{
+    font-family: 'Hind', sans-serif;
+
+}
+
+.bannerBgImage{
+    height:100vh;
+    background:url("images/BannerImage.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.bannerText{
+    text-align: right;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+
+.bannerTitle{
+    font-size: 4rem;
+}
+
+.bannerDesc{
+    font-size: 2rem;
+}
+
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color:palevioletred;
+    border: 2px solid yellowgreen;
+}
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+}
+.card-img-top{
+    height: 50vh;
+}
+
+
+
+
+
+
